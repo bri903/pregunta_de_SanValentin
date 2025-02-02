@@ -1,0 +1,37 @@
+02.02 10:47 a. m.
+estilo.css
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.pregunta {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.boton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #3e8e41;
+}
+
+.respuesta {
+  font-size: 18px;
+  margin-top: 20px;
+}
+

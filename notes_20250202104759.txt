@@ -1,0 +1,28 @@
+02.02 10:44 a. m.
+pregunta.html
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pregunta especial</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1 class="pregunta">¿Quieres ser mi San Valentín?</h1>
+    <button class="boton" onclick="responderSi()">Sí</button>
+    <button class="boton" onclick="responderNo()">No</button>
+    <div id="respuesta" class="respuesta"></div>
+  </div>
+
+  <script>
+    function responderSi() {
+      document.getElementById("respuesta").innerHTML = "¡Genial! Gracias por aceptar. Te quiero!";
+    }
+
+    function responderNo() {
+      document.getElementById("respuesta").innerHTML = "Ni modo, lo vas a hacer aún que no quieras";
+    }
+  </script>
+</body>
+</html>
